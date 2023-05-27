@@ -46,6 +46,7 @@ table {
 
 nav{
     padding: 1em;
+    position: fixed;
 }
 li{
     display: inline-block;

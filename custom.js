@@ -1,6 +1,6 @@
 window.alert("page is responsiv in:(1200, 900, 600)px")
 //steaky navbar//
-let navbar=document.querySelectorAll("nav.nav")
+let navbar=document.querySelectorAll("top-main-menu")
     navbar.forEach(navbar=>{
 
     window.addEventListener("scroll",e=>{
@@ -175,3 +175,14 @@ function myFunction() {
       x.style.display = "block";
     }
   }
+//   let navbar = document.getElementById("top-main-menu");
+// 		let navbarPosition = navbar.offsetTop;
+
+// 		function makeSticky() {
+// 			if(window.pageYOffset >= navbarPosition) {
+// 				navbar.classList.add("sticky-menu")
+// 			} else {
+// 				navbar.classList.remove("sticky-menu")
+// 			}
+// 		}console.log(window.pageYOffset);
+// 		console.log(navbar);
